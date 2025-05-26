@@ -1252,7 +1252,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Timer:LMC555xTP"
+		(symbol "Timer:LMC555xM"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1265,7 +1265,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LMC555xTP"
+			(property "Value" "LMC555xM"
 				(at 2.54 8.89 0)
 				(effects
 					(font
@@ -1274,8 +1274,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_BGA:Texas_DSBGA-8_1.43x1.41mm_Layout3x3_P0.5mm"
-				(at 2.54 -12.7 0)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 21.59 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1284,7 +1284,7 @@
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmc555.pdf"
-				(at 0 0 0)
+				(at 21.59 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1292,7 +1292,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CMOS Timer, DSBGA-8"
+			(property "Description" "CMOS Timer, 555 compatible, SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1310,7 +1310,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Texas*DSBGA*P0.5mm*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1319,7 +1319,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LMC555xTP_0_0"
+			(symbol "LMC555xM_0_0"
 				(pin power_in line
 					(at 0 10.16 270)
 					(length 2.54)
@@ -1330,7 +1330,7 @@
 							)
 						)
 					)
-					(number "A2"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1348,7 +1348,7 @@
 							)
 						)
 					)
-					(number "A3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1357,7 +1357,7 @@
 					)
 				)
 			)
-			(symbol "LMC555xTP_0_1"
+			(symbol "LMC555xM_0_1"
 				(rectangle
 					(start -8.89 -7.62)
 					(end 8.89 7.62)
@@ -1381,7 +1381,7 @@
 					)
 				)
 			)
-			(symbol "LMC555xTP_1_1"
+			(symbol "LMC555xM_1_1"
 				(pin input line
 					(at -12.7 5.08 0)
 					(length 3.81)
@@ -1392,7 +1392,7 @@
 							)
 						)
 					)
-					(number "B3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1410,7 +1410,7 @@
 							)
 						)
 					)
-					(number "C1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1428,7 +1428,7 @@
 							)
 						)
 					)
-					(number "C2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1446,7 +1446,7 @@
 							)
 						)
 					)
-					(number "C3"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1464,7 +1464,7 @@
 							)
 						)
 					)
-					(number "A1"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1482,7 +1482,7 @@
 							)
 						)
 					)
-					(number "B1"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2440,94 +2440,6 @@
 		(uuid "fc45b552-8286-470a-b455-e016eb5c6b93")
 	)
 	(symbol
-		(lib_id "Timer:LMC555xTP")
-		(at 115.57 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04f3770c-dffd-4933-a0d9-26291f8db717")
-		(property "Reference" "U1"
-			(at 117.7133 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LMC555xTP"
-			(at 117.7133 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_BGA:Texas_DSBGA-8_1.43x1.41mm_Layout3x3_P0.5mm"
-			(at 118.11 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmc555.pdf"
-			(at 115.57 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CMOS Timer, DSBGA-8"
-			(at 115.57 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "B3"
-			(uuid "49fddd6f-7d3e-4d0a-a261-2b9ba20a83a9")
-		)
-		(pin "A2"
-			(uuid "2de4af31-2f92-4e8d-86be-ed0443bfa20c")
-		)
-		(pin "A3"
-			(uuid "a0e353aa-f3d0-4e26-a748-07a982ff52be")
-		)
-		(pin "C2"
-			(uuid "4e3e42fc-27b8-4452-949f-8b1a9d68f06c")
-		)
-		(pin "C3"
-			(uuid "c0ca2133-89b9-4ac7-9a52-1b7be118d8f4")
-		)
-		(pin "C1"
-			(uuid "2d43edf2-a588-4f42-b1a0-1b1342b4959b")
-		)
-		(pin "B1"
-			(uuid "4cadcf45-c603-4ad1-b3e0-fe2fb6b53d62")
-		)
-		(pin "A1"
-			(uuid "484b5731-6f2b-4b46-ba79-480c6be16812")
-		)
-		(instances
-			(project ""
-				(path "/2cff6f91-6424-4ed8-a8be-ffa4d2125fb9"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 92.71 95.25 0)
 		(unit 1)
@@ -2554,7 +2466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 93.6752 99.06 0)
 			(effects
 				(font
@@ -2694,7 +2606,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 73.66 77.47 0)
 			(effects
 				(font
@@ -2755,6 +2667,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDC")
+		(at 63.5 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b929dfc-e8bc-4248-8e6b-c6ec1f1ab437")
+		(property "Reference" "#PWR01"
+			(at 63.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 63.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a3791b0-6590-4e7b-9151-2d3891a563da")
+		)
+		(instances
+			(project ""
+				(path "/2cff6f91-6424-4ed8-a8be-ffa4d2125fb9"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 80.01 95.25 0)
 		(unit 1)
@@ -2781,7 +2759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 80.9752 99.06 0)
 			(effects
 				(font
@@ -3154,6 +3132,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Timer:LMC555xM")
+		(at 115.57 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "734c89ec-1356-4e4c-ac52-ef99d80e480d")
+		(property "Reference" "U1"
+			(at 117.7133 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LMC555xM"
+			(at 117.7133 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 137.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmc555.pdf"
+			(at 137.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CMOS Timer, 555 compatible, SOIC-8"
+			(at 115.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "c4d1bbfc-fcc2-46f0-97ac-3cd664cdc1ad")
+		)
+		(pin "3"
+			(uuid "ea339e85-42f7-42f1-a0e8-7e40078200fb")
+		)
+		(pin "7"
+			(uuid "ae81719f-15bf-4e85-bac7-d2cc9dd33c09")
+		)
+		(pin "4"
+			(uuid "6c020ebb-89f9-4779-8a61-c85ccef466ab")
+		)
+		(pin "2"
+			(uuid "9438a4e4-c337-468d-b645-ed89c468083d")
+		)
+		(pin "5"
+			(uuid "f96f7dc5-24df-4387-91df-1936187c0c45")
+		)
+		(pin "8"
+			(uuid "c3e9401d-e394-4c53-a3b3-9ec66ee74080")
+		)
+		(pin "1"
+			(uuid "8e6e5214-7cb5-4859-b369-4a9e7d6b7178")
+		)
+		(instances
+			(project ""
+				(path "/2cff6f91-6424-4ed8-a8be-ffa4d2125fb9"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 143.51 90.17 0)
 		(unit 1)
@@ -3178,7 +3244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 141.732 90.17 90)
 			(effects
 				(font
@@ -3388,7 +3454,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 70.358 64.262 90)
 			(effects
 				(font
@@ -3656,7 +3722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 49.53 77.47 0)
 			(effects
 				(font
@@ -3907,7 +3973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 135.89 84.328 90)
 			(effects
 				(font
@@ -3944,72 +4010,6 @@
 			(project ""
 				(path "/2cff6f91-6424-4ed8-a8be-ffa4d2125fb9"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDC")
-		(at 63.5 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c937cb33-c493-4377-a56b-028710919a70")
-		(property "Reference" "#PWR012"
-			(at 63.5 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBC"
-			(at 63.5 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 63.5 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9e5a55c-4985-42b9-a8ec-7822051bbb25")
-		)
-		(instances
-			(project "HeadlightDimmerPCB"
-				(path "/2cff6f91-6424-4ed8-a8be-ffa4d2125fb9"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
