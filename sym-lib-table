@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BAT54V-7")(type "KiCad")(uri "${KIPRJMOD}/Custom/BAT54V-7.kicad_sym")(options "")(descr ""))
+)
