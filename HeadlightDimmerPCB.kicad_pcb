@@ -420,6 +420,19 @@
 				)
 			)
 		)
+		(property "P/N" "BAT54V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84a83a76-987f-4e3c-80e8-6c0b5d7d65f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/547d2c76-dc51-4f77-a0d6-7d8d87a55206")
 		(sheetname "/")
 		(sheetfile "HeadlightDimmerPCB.kicad_sch")
@@ -1045,7 +1058,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1069,7 +1082,7 @@
 				)
 			)
 		)
-		(property "P/N" " C3216C0G2J103G160AE "
+		(property "P/N" "C0805C103M5RACTU"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1865,7 +1878,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/JB12F_1-3516542.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1887,6 +1900,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "P/N" "JB12F2001R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba10cb8e-4846-47fe-ae73-f10053fab899")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3137,8 +3163,8 @@
 		(layer "Edge.Cuts")
 		(uuid "d6391bee-3abd-4f08-a458-439ac481b687")
 	)
-	(gr_text "UTSVT Headlight \nDimmer PCB\nSummer 2025\nParthiv Shah"
-		(at 161 88 0)
+	(gr_text "UTSVT Headlight Dimmer PCB\nSummer 2025\nParthiv Shah"
+		(at 161 87 0)
 		(layer "B.SilkS")
 		(uuid "26d2bb24-1355-4af1-9b04-005b4f207c45")
 		(effects
