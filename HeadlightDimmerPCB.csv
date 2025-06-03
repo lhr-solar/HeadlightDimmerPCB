@@ -1,0 +1,10 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet,P/N
+"C1,C2",2,0.01µF,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf,"C3216C0G2J103G160AE, C0805C103M5RACTU"
+D3,1,BAT54V-7,,,,Package_TO_SOT_SMD:SOT-563,https://www.diodes.com/assets/Datasheets/ds30560.pdf,BAT54V
+F1,1,2A,,,,Fuse:Fuse_1206_3216Metric,https://www.mouser.com/datasheet/2/447/JB12F_1-3516542.pdf,JB12F2001R
+J1,1,Conn_02x02_Counter_Clockwise,,,,CustomFootprints:CONN04_0757571121_MOL,~,
+Q1,1,NMOS,,,,Package_TO_SOT_SMD:SOT-23,https://www.mouser.com/datasheet/2/115/DIOD_S_A0006646649_1-2542935.pdf,DMG2302UKQ-7 
+"R1,R2",2,1K,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,CRCW08051K00FKEAC
+R3,1,10K,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,CRCW080510K0FKEAC
+RV1,1,10K,,,,Potentiometer_SMD:Potentiometer_ACP_CA6-VSMD_Vertical_Hole,https://www.acptechnologies.com/catalogue/potentiometers/ca6/ca6-models/,PS10KH40-103A3030
+U1,1,LMC555xM,,,,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/lmc555.pdf,LMC555xM
